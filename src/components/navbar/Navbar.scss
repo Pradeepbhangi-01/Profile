@@ -1,0 +1,31 @@
+.container {
+  text-align: center;
+  margin: auto;
+  .nav-container {
+    color: white;
+    position: sticky;
+
+    .main-container {
+      padding: 10px;
+      align-items: center;
+
+      .list-items {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 16px;
+
+        li {
+          padding: 10px 10px;
+          font-size: 0.9rem;
+          transition: color 0.5s;
+
+          &:hover {
+            cursor: pointer;
+            color: lightgrey;
+          }
+        }
+      }
+    }
+  }
+}

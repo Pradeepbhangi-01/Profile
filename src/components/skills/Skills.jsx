@@ -16,11 +16,26 @@ function Skills() {
 
         <div className="skills-display">
           <div className="skill-progress">
+            <div className="seventy-percent mb-blue">
+              <div className="skill-name">
+                <span> NodeJS </span>
+              </div>
+            </div>
+          </div>
+          <div className="skill-progress">
+            <div className="seventy-percent mb-chocalate  ">
+              <div className="skill-name">
+                <span> Javascript </span>
+              </div>
+            </div>
+          </div>
+
+          <div className="skill-progress">
             <div className="fifty-percent mb-blue">
               <div className="skill-name">
-                <span> C++ </span>
+                <span> Express </span>
               </div>
-            </div> 
+            </div>
           </div>
 
           <div className="skill-progress">
@@ -38,24 +53,27 @@ function Skills() {
               </div>
             </div>
           </div>
-          <div className="skill-progress">
-            <div className="fifty-percent mb-chocalate  ">
-              <div className="skill-name">
-                <span> Javascript </span>
-              </div>
-            </div>
-          </div>
-          <div className="skill-progress">
-            <div className="fifty-percent mb-blue">
-              <div className="skill-name">
-                <span> NodeJs </span>
-              </div>
-            </div>
-          </div>
+
           <div className="skill-progress">
             <div className="eighty-percent mb-orange">
               <div className="skill-name">
                 <span> MongoDB </span>
+              </div>
+            </div>
+          </div>
+
+          <div className="skill-progress">
+            <div className="sixty-percent mb-green">
+              <div className="skill-name">
+                <span> Redux </span>
+              </div>
+            </div>
+          </div>
+
+          <div className="skill-progress">
+            <div className="eighty-percent mb-chocalate">
+              <div className="skill-name">
+                <span> Git/Github</span>
               </div>
             </div>
           </div>

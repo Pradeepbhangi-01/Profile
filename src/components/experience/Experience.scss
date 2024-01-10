@@ -3,6 +3,7 @@
 .timeline {
   position: relative;
   width: 75%;
+  margin-bottom: 30px;
 }
 
 .timeline-box {
@@ -17,8 +18,8 @@
 .timeline-box::after {
   content: "";
   position: absolute;
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   background-color: lightgrey;
   top: 25%;
   border-radius: 50%;
@@ -26,7 +27,7 @@
 }
 
 .timeline-box:nth-child(2n) {
-  left: 53%;
+  left: 53.5%;
 }
 
 .timeline-box:nth-child(2n + 1)::after {
@@ -52,7 +53,7 @@
   height: 100%;
 }
 
-#timeline-divider {
+#timeline-divider1 {
   position: absolute;
   width: 0;
   top: 15%;
@@ -62,13 +63,13 @@
   color: #433e3f;
 }
 
-#timeline-divider .timeline-traveller {
+#timeline-divider1 .timeline-traveller {
   position: sticky;
   top: 135px;
   z-index: 2;
 }
 
-#timeline-divider i {
+#timeline-divider1 i {
   transform: rotate(90deg);
   margin-top: -30px;
   display: block;
@@ -104,4 +105,45 @@
 
 .text-align-justify {
   text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+  .section-heading {
+    align-items: center;
+    text-align: center;
+  }
+
+  .timeline {
+    .timeline-box {
+      text-align: left;
+      .timeline-container {
+        .experience-designation1 {
+          margin-top: 30px;
+        }
+      }
+    }
+
+    .timeline-box {
+      width: 90%;
+      text-align: left;
+    }
+    .timeline-box:nth-child(2n) {
+      left: 15%;
+    }
+
+    .timeline-box:nth-child(2n + 1) {
+      left: 15%;
+    }
+
+    .timeline-box::after {
+      content: "";
+      display: none;
+    }
+  }
+
+  #timeline-divider1 {
+    top: 10%;
+    left: 0%;
+    height: 50%;
+  }
 }

@@ -6,7 +6,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 function About() {
   return (
-    <div className="container">
+    <div className="container" id="about">
       <div className="profile-container">
         <div className="about-title">
           <h2>Pradeep Bhangi</h2>

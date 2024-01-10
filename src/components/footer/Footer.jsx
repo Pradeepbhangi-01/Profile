@@ -1,5 +1,8 @@
 import React from "react";
 import "./Footer.scss";
+import { FaGithub, FaLinkedin, FaMapMarkerAlt } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { IoIosMail } from "react-icons/io";
 
 function Footer() {
   return (
@@ -41,19 +44,19 @@ function Footer() {
         <div id="my-details-container">
           <h3>Get In touch</h3>
           <p>
-            Lorem Ipsum has been the industry's standard dummy text ever since
-            the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book.
+            I'd love to hear from you! Whether you have a question, feedback, or
+            just want to say hello, use the below details to get in touch with
+            me. I'll do my best to respond promptly.
           </p>
 
           <h3>My Address</h3>
           <div class="my-details-info-container">
-            <i class="fas fa-map-marker-alt"></i>
+            <FaMapMarkerAlt />
             <span>Bengaluru, India</span>
           </div>
 
           <div class="my-details-info-container">
-            <i class="far fa-envelope"></i>
+            <IoIosMail />
             <span>pradeepbhangi.tech@gmail.com</span>
           </div>
         </div>
@@ -63,22 +66,29 @@ function Footer() {
         <ul class="horizontal-list">
           <li>
             <a href="https://www.linkedin.com/in/pradeep-bhangi-93a148193/">
-              <i class="fab fa-linkedin-in"></i>
+              <FaLinkedin />
             </a>
           </li>
 
           <li>
             <a href="https://github.com/Pradeepbhangi-01" target="_blank">
-              <i class="fab fa-github"></i>
+              <FaGithub />
             </a>
           </li>
 
           <li>
             <a href="" target="_blank">
-              <i class="fab fa-twitter"></i>
+              <FaXTwitter />
             </a>
           </li>
         </ul>
+      </div>
+
+      <div id="copyright">
+        <p>
+          © {new Date().getFullYear()}
+          <strong> PradeepBhangi</strong>
+        </p>
       </div>
     </section>
   );

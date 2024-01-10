@@ -1,42 +1,5 @@
 /* Work Experience */
 
-.timeline {
-  position: relative;
-  width: 75%;
-}
-
-.timeline-box {
-  padding: 5px;
-  width: 40%;
-  min-height: 150px;
-  position: relative;
-  left: 5%;
-  text-align: right;
-}
-
-.timeline-box::after {
-  content: "";
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  background-color: lightgrey;
-  top: 25%;
-  border-radius: 50%;
-  z-index: 1;
-}
-
-.timeline-box:nth-child(2n) {
-  left: 53%;
-}
-
-.timeline-box:nth-child(2n + 1)::after {
-  right: -11.8%;
-}
-
-.timeline-box:nth-child(2n)::after {
-  left: -9%;
-}
-
 .timeline-container {
   padding: 8px;
   padding-right: -20px;
@@ -51,6 +14,50 @@
 
 .timeline-logo1 > img {
   width: 70%;
+}
+
+/* Work Experience */
+
+.timeline {
+  position: relative;
+  width: 75%;
+  margin-bottom: 30px;
+}
+
+.timeline-box {
+  padding: 5px;
+  width: 40%;
+  min-height: 150px;
+  position: relative;
+  left: 5%;
+  text-align: right;
+}
+
+.timeline-box::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: lightgrey;
+  top: 25%;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-box:nth-child(2n) {
+  left: 53.5%;
+}
+
+.timeline-box:nth-child(2n + 1)::after {
+  right: -11.8%;
+}
+
+.timeline-box:nth-child(2n)::after {
+  left: -9%;
+}
+
+.timeline-container {
+  padding: 8px;
 }
 
 #timeline-divider {
@@ -90,7 +97,7 @@
 }
 
 .experience-duration {
-  color: #9e9b9b;
+  color: #831616;
   font-weight: 100;
   color: grey;
   font-size: 1rem;
@@ -105,4 +112,51 @@
 
 .text-align-justify {
   text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+  .section-heading {
+    align-items: center;
+    text-align: center;
+  }
+
+  .timeline {
+    .timeline-box {
+      text-align: left;
+      .timeline-container {
+        .experience-designation {
+          margin-top: 50px;
+        }
+      }
+    }
+
+    .timeline-box {
+      width: 90%;
+      text-align: left;
+    }
+
+    .timeline-box:nth-child(2n) {
+      left: 15%;
+    }
+
+    .timeline-box:nth-child(2n + 1) {
+      left: 15%;
+    }
+
+    .timeline-box::after {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: rgb(159, 28, 28);
+      top: 25%;
+      border-radius: 50%;
+      z-index: 1;
+    }
+  }
+
+  #timeline-divider {
+    top: 15%;
+    left: 0%;
+  }
 }

@@ -17,10 +17,10 @@ function Home() {
           <img src={profileImg} alt="profile Image" />
         </div>
         <div className="description-container">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni iusto
-          ipsa quas aspernatur deserunt commodi magnam cumque cupiditate
-          aliquam. Deserunt totam recusandae molestiae. Sit unde repellendus
-          architecto fugiat voluptas dicta.
+          Enthusiastic and skilled full stack software developer with 1.5 years
+          of experience in front-end and back-end development. Dedicated to
+          delivering high-quality code and fostering collaborative solutions for
+          exceptional user experiences.
         </div>
       </div>
     </div>

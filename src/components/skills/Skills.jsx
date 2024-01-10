@@ -20,7 +20,7 @@ function Skills() {
               <div className="skill-name">
                 <span> C++ </span>
               </div>
-            </div>
+            </div> 
           </div>
 
           <div className="skill-progress">

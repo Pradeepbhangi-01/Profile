@@ -20,19 +20,14 @@ function Education() {
               <img src={sitImg} />
             </div>
             <h3 class="experience-designation m0 m-blue">
-              Bachelors of Engineering
+              Bachelor's Degree in Mechanical Engineering
             </h3>
             <h4 class="experience-company-name">
               Siddaganga Institue Of Technology, Tumkur
             </h4>
             <h5 class="experience-duration m0">Aug, 2017 - July 2021</h5>
-
-            <p class="experience-description text-align-justify">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
+            <br />
+            <h5 class="experience-duration m0">CGPA 7.33</h5>
           </div>
         </div>
 
@@ -42,25 +37,21 @@ function Education() {
               <img src={nvsImg} />
             </div>
             <h3 class="experience-designation m0 m-blue">
-              Higher Secanodary School
+              Higher Secondary School
             </h3>
             <h4 class="experience-company-name">
               Jawahar Navodaya Vidayalaya, Narayanpur
             </h4>
-            <h5 class="experience-duration m0">Month YYYY - Month YYYY</h5>
-            <p class="experience-description text-align-justify">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
+            <h5 class="experience-duration m0">June 2015 - May 2017</h5>
+            <br />
+            <h5 class="experience-duration m0">Class XII - 70.80%</h5>
           </div>
         </div>
 
         <div id="timeline-divider">
           <div class="timeline-traveller">
             <div>
-              <i class="fas fa-car-side"></i>
+              <i class="fas fa-plane"></i>
             </div>
           </div>
         </div>

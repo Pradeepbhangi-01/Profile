@@ -77,7 +77,7 @@ function Footer() {
           </li>
 
           <li>
-            <a href="" target="_blank">
+            <a href="https://twitter.com/pradeep_bhangi" target="_blank">
               <FaXTwitter />
             </a>
           </li>

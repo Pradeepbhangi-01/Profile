@@ -28,7 +28,7 @@ function About() {
             </li>
 
             <li className="hover-link">
-              <a href="" target="_blank">
+              <a href="https://twitter.com/pradeep_bhangi" target="_blank">
                 <FaXTwitter />
               </a>
             </li>

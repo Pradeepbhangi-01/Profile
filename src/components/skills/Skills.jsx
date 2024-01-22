@@ -49,7 +49,7 @@ function Skills() {
           <div className="skill-progress">
             <div className="seventy-percent mb-green">
               <div className="skill-name">
-                <span> CSS </span>
+                <span> Tailwind CSS </span>
               </div>
             </div>
           </div>
@@ -65,7 +65,7 @@ function Skills() {
           <div className="skill-progress">
             <div className="sixty-percent mb-green">
               <div className="skill-name">
-                <span> Redux </span>
+                <span> React </span>
               </div>
             </div>
           </div>
